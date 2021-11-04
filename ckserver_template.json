@@ -1,0 +1,11 @@
+{
+  "ProxyBook": {
+   "squid": ["tcp", "127.0.0.1:3128"]
+ },
+  "BindAddr": [],
+  "BypassUID": [],
+  "RedirAddr": "zoom.us",
+  "PrivateKey": "",
+  "AdminUID": "",
+  "DatabasePath": "userinfo.db"
+}
