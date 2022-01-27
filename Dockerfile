@@ -9,6 +9,7 @@ WORKDIR /home
 RUN rm -rf Cloak
 RUN apk del make go git 
 COPY ckserver_template.json /home
+RUN mkdir /config
 COPY start.py /home
 ENTRYPOINT ["python3", "/home/start.py"]
 RUN echo "Build success I guess?"
